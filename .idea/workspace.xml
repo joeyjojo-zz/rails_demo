@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e5ab3c-8ced-474c-8cb9-efb7c3fe1943" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/products.yml" afterPath="$PROJECT_DIR$/test/fixtures/products.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" afterPath="$PROJECT_DIR$/app/views/products/show.html.erb" />
     </list>
     <ignored path="rails_demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a8e5ab3c-8ced-474c-8cb9-efb7c3fe1943" time="1362144001311" ignored="false" />
     <file path="/20130301132118_create_products.rb" changelist="a8e5ab3c-8ced-474c-8cb9-efb7c3fe1943" time="1362144384284" ignored="false" />
     <file path="/temp.rb" changelist="a8e5ab3c-8ced-474c-8cb9-efb7c3fe1943" time="1362144292959" ignored="false" />
+    <file path="/a.dummy" changelist="a8e5ab3c-8ced-474c-8cb9-efb7c3fe1943" time="1362144542549" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +28,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20130301132118_create_products.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20130301132118_create_products.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130301132118_create_products.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="83" selection-start="232" selection-end="232" vertical-scroll-proportion="0.19428572">
+            <state line="8" column="83" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="33" selection-start="363" selection-end="363" vertical-scroll-proportion="-11.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="4" selection-start="250" selection-end="250" vertical-scroll-proportion="-10.192307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.47939262">
               <folding />
             </state>
           </provider>
@@ -63,6 +93,9 @@
       <list>
         <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130301132118_create_products.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
+        <option value="$PROJECT_DIR$/test/fixtures/products.yml" />
       </list>
     </option>
   </component>
@@ -195,7 +228,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2533137" sideWeight="0.6707989" order="0" side_tool="false" content_ui="combo" />
@@ -284,7 +317,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130301132118_create_products.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="83" selection-start="232" selection-end="232" vertical-scroll-proportion="0.19428572">
+        <state line="8" column="83" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="363" selection-end="363" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="4" selection-start="250" selection-end="250" vertical-scroll-proportion="-10.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.47939262">
           <folding />
         </state>
       </provider>

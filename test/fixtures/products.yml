@@ -5,11 +5,9 @@ one:
   descripton: MyText
   image_url: MyString
   price: MyString
-  decimal: MyString
 
 two:
   title: MyString
   descripton: MyText
   image_url: MyString
   price: MyString
-  decimal: MyString
