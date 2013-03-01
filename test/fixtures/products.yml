@@ -2,12 +2,12 @@
 
 one:
   title: MyString
-  descripton: MyText
+  description: MyText
   image_url: MyString
   price: MyString
 
 two:
   title: MyString
-  descripton: MyText
+  description: MyText
   image_url: MyString
   price: MyString
