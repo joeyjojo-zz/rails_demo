@@ -27,7 +27,7 @@
 
 #notice {
   color: #000 !important;
-  border: 2px solid-red;
+  border: 2px solid red;
   padding: 1em;
   margin-bottom: 2em;
   background-color: #f0f0f0;
@@ -45,7 +45,8 @@
 
   #side {
     float: left;
-    padding: 13em;
+    padding: 1em 2em;
+    width: 13em;
     background: #141;
   }
 
@@ -54,7 +55,6 @@
     li {
       list-style: none;
       a {
-        color: #bfb;
         font-size: small;
       }
     }
