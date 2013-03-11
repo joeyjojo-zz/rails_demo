@@ -12,3 +12,7 @@ class Product < ActiveRecord::Base
       }
 
 end
+
+def self.latest
+  Product.order('updated_at').last
+end
